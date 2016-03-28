@@ -1,0 +1,31 @@
+{
+/*
+  "DOTCLOUD_WWW_HTTP_URL": "http://abc.dotcloud.com/",
+  "DOTCLOUD_WWW_SSH_PORT": "33105",
+  "DOTCLOUD_WWW_SSH_URL": "ssh://dotcloud@abc.dotcloud.com:33105",
+  "DOTCLOUD_ENVIRONMENT": "default",
+  "DOTCLOUD_DATA_SSH_URL": "ssh://redis@abc.dotcloud.com:33114",
+  "DOTCLOUD_WWW_SSH_HOST": "abc.dotcloud.com",
+  "DOTCLOUD_DATA_SSH_HOST": "abc.dotcloud.com",
+  "DOTCLOUD_PROJECT": "authsome",
+  "DOTCLOUD_DATA_REDIS_LOGIN": "root",
+  "DOTCLOUD_DATA_REDIS_URL": "redis://root:...@abc.dotcloud.com:33116",
+  "DOTCLOUD_DATA_REDIS_PASSWORD": "...",
+  "DOTCLOUD_DATA_SSH_PORT": "33114",
+  "DOTCLOUD_WWW_HTTP_HOST": "abc.dotcloud.com",
+*/
+
+  "SESSION_KEY":  "...",
+
+  "DOTCLOUD_DATA_REDIS_HOST": "localhost",
+  "DOTCLOUD_DATA_REDIS_PORT": "6379",
+
+  "LINKEDIN_KEY": "...",
+  "LINKEDIN_SECRET": "...",
+
+  "INSTAGRAM_KEY": "...",
+  "INSTAGRAM_SECRET": "...",
+
+  "DROPBOX_KEY": "...",
+  "DROPBOX_SECRET": "..."
+}

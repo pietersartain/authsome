@@ -1,0 +1,19 @@
+<h1>authsome</h1>
+<h2>Linking your services together ... </h2>
+
+<p>This is an imaginary dashboard that contains a list of linked services for user <%= @user_id %></p>
+
+<ul>
+    <% @authed.each do |service,auth| %>
+    <li><%=service %>:
+        <% if auth %>
+        Yes! <a href="/<%=service %>/deauth">Unlink</a>
+        <% else %>
+        No. <a href="/<%=service %>/auth">Link</a>
+        <% end %>
+         - <a href="/<%=service %>/test">Test</a>
+    </li>
+    <% end %>
+</ul>
+
+<p><a href="/logout">Logout</a></p>
